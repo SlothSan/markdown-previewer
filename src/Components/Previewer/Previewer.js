@@ -1,5 +1,6 @@
 import './Previewer.css'
 import Toolbar from "../Toolbar/Toolbar";
+import PreviewerText from "./PreviewerText/PreviewerText";
 
 const Previewer = () => {
     return (
@@ -7,6 +8,7 @@ const Previewer = () => {
             <Toolbar icon={"fa-solid fa-magnifying-glass"}
                      title={'Previewer'}
                      />
+            <PreviewerText />
         </div>
     )
 }
