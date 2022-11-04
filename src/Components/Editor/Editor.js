@@ -9,7 +9,8 @@ const Editor = (props) => {
                      title={"Editor"}
                      handleClickMaximiseEditor={props.handleClickMaximiseEditor}
                      editorMaximised={props.editorMaximised}/>
-            <EditorTextarea />
+            <EditorTextarea markdownBody={props.markdownBody}
+                            setMarkdownBody={props.setMarkdownBody}/>
         </div>
     )
 }
