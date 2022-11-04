@@ -66,7 +66,7 @@ function App() {
               editorMaximised={editorMaximised}
               markdownBody={markdownBody}
               setMarkdownBody={setMarkdownBody}/>
-      <Previewer />
+      <Previewer markdownBody={markdownBody}/>
     </div>
   );
 }

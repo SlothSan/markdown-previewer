@@ -1,8 +1,9 @@
 import './PreviewerText.css'
 
-const PreviewerText = () => {
+const PreviewerText = (props) => {
     return (
-        <div id={"preview"} className={"previewer-text"}></div>
+        <div id={"preview"} className={"preview-text"} >
+        </div>
     )
 }
 
