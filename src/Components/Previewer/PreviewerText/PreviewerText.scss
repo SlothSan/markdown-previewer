@@ -6,13 +6,18 @@
   * {
     margin: 5px 0 5px 0;
   }
-
+  pre {
+    width: 100%;
+    background-color: #FFFFFF;
+  }
+  code {
+    background-color: #FFFFFF;
+  }
   .table-container{
     height: 400px;
     width: 400px;
     margin: 0 auto;
   }
-
   img{
     width: 50%;
     height: 100%;

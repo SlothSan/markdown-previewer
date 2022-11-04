@@ -51,7 +51,7 @@ And here. | Okay. | I think we get it.
     const [markdownBody, setMarkdownBody] = useState(placeholderMarkdownBody)
     const [editorMaximised, setEditorMaximised] = useState(false)
     const [previewMaximised, setPreviewMaximised] = useState(false)
-    
+
     const handleClickMaximiseEditor = (event) => {
         event.preventDefault()
         event.stopPropagation()
