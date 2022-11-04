@@ -1,5 +1,6 @@
 import './PreviewerText.css'
-import Markdown from "marked-react";
+import ReactMarkdown from "react-markdown";
+import remarkGFM from "remark-gfm"
 import Lowlight from 'react-lowlight';
 import javascript from 'highlight.js/lib/languages/javascript';
 
@@ -17,9 +18,9 @@ const PreviewerText = (props) => {
 
     return (
         <div id={"preview"} className={"preview-text"}>
-             <Markdown value={props.markdownBody}
-                       gfm={true}
-                       breaks={true}></Markdown>
+            <ReactMarkdown children={props.markdownBody}
+                           remarkPlugins={[remarkGFM]}
+                           skipHtml={true}></ReactMarkdown>
         </div>
     )
 }
