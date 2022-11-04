@@ -9,6 +9,9 @@
 }
 .maximised {
   height: 97vh;
+  .editor-textarea{
+    resize: none !important;
+  }
 }
 
 .hidden {
