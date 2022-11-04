@@ -1,5 +1,7 @@
+@use '../../App.scss';
+
 .editor-container {
-  margin-top: 20px;
+  margin-top: 10px;
   width: 500px;
   min-height: 250px;
   border-radius: 5px;
@@ -8,4 +10,6 @@
   box-shadow: 1px 1px 10px 2px #3a5f5f;
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
+

@@ -1,4 +1,5 @@
 import './Toolbar.css'
+import MaxMinIcon from "./MaxiMinIcon/MaxMinIcon";
 
 const Toolbar = (props) => {
     return (
@@ -8,9 +9,11 @@ const Toolbar = (props) => {
                 <p className={"toolbar-title"}>{props.title}</p>
             </div>
             <div className={"maximise-container"}>
-                {props.editorMaximised ? <i onClick={props.handleClickMaximiseEditor} className="fa-solid fa-minimize"></i>
-                    : <i onClick={props.handleClickMaximiseEditor} className="fa-solid fa-maximize"></i> }
-
+                <MaxMinIcon editorMaximised={props.editorMaximised}
+                            previewMaximised={props.previewMaximised}
+                            maximiseType={props.maximiseType}
+                            handleClickMaximiseEditor={props.handleClickMaximiseEditor}
+                            handleClickMaximisePreview={props.handleClickMaximisePreview}/>
             </div>
         </div>
     )
