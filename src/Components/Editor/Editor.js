@@ -1,10 +1,15 @@
 import './Editor.css'
 import Toolbar from "../Toolbar/Toolbar";
+import EditorTextarea from "./EditorTextarea/EditorTextarea";
 
-const Editor = () => {
+const Editor = (props) => {
     return (
         <div className={"editor-container"}>
-            <Toolbar />
+            <Toolbar icon={"fa-regular fa-pen-to-square"}
+                     title={"Editor"}
+                     handleClickMaximiseEditor={props.handleClickMaximiseEditor}
+                     editorMaximised={props.editorMaximised}/>
+            <EditorTextarea />
         </div>
     )
 }
