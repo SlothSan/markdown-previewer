@@ -1,6 +1,7 @@
 import './App.css';
 import Editor from "./Components/Editor/Editor";
 import {useState} from "react";
+import Previewer from "./Components/Previewer/Previewer";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
       <Editor handleClickMaximiseEditor={handleClickMaximiseEditor}
               editorMaximised={editorMaximised}/>
+      <Previewer />
     </div>
   );
 }
