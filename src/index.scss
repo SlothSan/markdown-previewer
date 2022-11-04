@@ -3,12 +3,18 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: #87b5b5;
+}
+
 body html {
+  background-color: #87b5b5;
   height: 100%;
   width: 100%;
 }
 
 #root {
   height: 100%;
+  background-color: #87b5b5;
   width: 100%;
 }
