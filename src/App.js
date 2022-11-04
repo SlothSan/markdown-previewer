@@ -51,8 +51,7 @@ And here. | Okay. | I think we get it.
     const [markdownBody, setMarkdownBody] = useState(placeholderMarkdownBody)
     const [editorMaximised, setEditorMaximised] = useState(false)
     const [previewMaximised, setPreviewMaximised] = useState(false)
-
-    //TODO Add the functionality for changing to fullscreen and viceversa
+    
     const handleClickMaximiseEditor = (event) => {
         event.preventDefault()
         event.stopPropagation()
