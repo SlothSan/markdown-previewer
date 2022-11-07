@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Markdown Previewer
+
+Created using React for the FreeCodeCamp Front End course.
+
+Uses the gh-pages npm package for deployment : https://www.npmjs.com/package/gh-pages
+
+Uses the react-markdown package for displaying the view from the preview window :https://www.npmjs.com/package/react-markdown
+
+Syntax highlighting might be added at a later date, but this passess all tests that FCC provide. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
